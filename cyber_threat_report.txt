@@ -1,0 +1,30 @@
+CYBER INCIDENT ANALYSIS REPORT
+==============================
+
+Total incidents: 3416
+Incidents involving disruption: 1475
+Incidents involving data theft: 1669
+
+Top 10 targeted countries:
+United States: 505
+United States;United States: 119
+Russia: 113
+Israel: 74
+Germany: 72
+France: 71
+Ukraine: 66
+United Kingdom: 64
+India: 46
+Korea, Republic of: 40
+
+Top 10 target categories:
+State institutions / political system: 893
+Critical infrastructure: 718
+Corporate Targets (corporate targets only coded if the respective company is not part of the critical infrastructure definition): 132
+State institutions / political system;State institutions / political system: 130
+Social groups: 82
+State institutions / political system;Education: 76
+Critical infrastructure;Critical infrastructure: 71
+Media: 63
+Unknown: 54
+State institutions / political system;Critical infrastructure: 51

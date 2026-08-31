@@ -1,0 +1,17 @@
+city_class,num_sightings,most_common_shape,avg_duration_seconds,median_duration_seconds
+Other,966,light,1487.0,180.0
+Unknown,133,light,81765.0,180.0
+los angeles,9,other,139.0,120.0
+chicago,8,light,82.0,52.5
+las vegas,6,light,622.0,510.0
+san diego,6,triangle,275.0,180.0
+phoenix,5,unknown,246270.0,120.0
+lancaster,5,light,127.0,30.0
+seattle,5,light,303.0,12.0
+st. louis,5,unknown,244.0,300.0
+richmond,5,disk,1032.0,480.0
+san antonio,5,cigar,1393.0,300.0
+paradise,4,light,360.0,240.0
+orlando,4,light,235.0,150.0
+tucson,4,light,228.0,270.0
+wilmington,4,light,142.0,60.0

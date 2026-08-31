@@ -1,0 +1,3 @@
+attack_detected,num_sessions,avg_failed_logins,avg_login_attempts,avg_session_duration,avg_ip_reputation_score,avg_packet_size,pct_unusual_time_access
+0,5273,1.18,3.54,763.32,0.3,501.64,0.15
+1,4264,1.94,4.64,829.13,0.37,498.93,0.15

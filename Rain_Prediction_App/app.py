@@ -3,8 +3,13 @@ import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+from pathlib import Path
 
 st.set_page_config(page_title="Will It Rain Tomorrow?", page_icon="🌦️", layout="wide")
+
+# Build an absolute path to files sitting next to this script,
+# so it works regardless of what folder Streamlit Cloud runs from.
+APP_DIR = Path(__file__).parent
 
 # ---------------------------------------------------------------------------
 # SIDEBAR NAVIGATION
@@ -24,7 +29,7 @@ if page == "🔮 Predict":
         "location tomorrow, based on today's conditions."
     )
 
-    model = joblib.load("xgb_capstone_model.joblib")
+    model = joblib.load(APP_DIR / "xgb_capstone_model.joblib")
 
     locations = ['Adelaide', 'Albany', 'Albury', 'AliceSprings', 'BadgerysCreek', 'Ballarat',
                  'Bendigo', 'Brisbane', 'Cairns', 'Canberra', 'Cobar', 'CoffsHarbour',
